@@ -84,7 +84,7 @@ class LoginForm extends Component {
                                 <Item>
                                     <Input
                                         secureTextEntry
-                                        placeholder="Password"
+                                        placeholder="Password    *Min 6 chars."
                                         value={userStore.password}
                                         onChangeText={password =>
                                             userStore.setPassword(password)
