@@ -14,16 +14,21 @@ const colors = {
     //   secondaryColor: '#bb002f',
     //   editButtonColor: '#c51162',
     //   deleteButtonColor: '#ff5983',
-    //   color blue
-    primaryColor: '#1e88e5',
-    secondaryColor: '#005cb2',
-    editButtonColor: '#039be5',
-    deleteButtonColor: '#6ab7ff',
+    // //   color blue
+    // primaryColor: '#1e88e5',
+    // secondaryColor: '#005cb2',
+    // editButtonColor: '#039be5',
+    // deleteButtonColor: '#6ab7ff',
     //   //   color pink2
     //   primaryColor: '#7e57c2',
     //   secondaryColor: '#4d2c91',
     //   editButtonColor: '#9575cd',
     //   deleteButtonColor: '#65499c',
+    // color black
+    primaryColor: '#005cb2',
+    secondaryColor: '#ffffff',
+    editButtonColor: '#2f4f4f',
+    deleteButtonColor: '#696969',
 };
 
 export default colors;

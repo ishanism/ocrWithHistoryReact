@@ -167,7 +167,7 @@ class Camera extends Component {
                             type="Entypo"
                             onPress={this.takePicture}
                             style={styles.icon}
-                            name="flickr-with-circle"
+                            name="instagram"
                         />
 
                         <Icon
@@ -176,7 +176,7 @@ class Camera extends Component {
                             style={styles.icon}
                             name="flash"
                         />
-                    </View>
+                    </View>.
                     {!!this.state.canDetectText && this.renderTextBlocks()}
                 </RNCamera>
             </View>

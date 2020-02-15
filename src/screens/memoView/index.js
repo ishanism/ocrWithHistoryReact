@@ -82,9 +82,13 @@ class MemoView extends Component {
                                     this.onCancel();
                                     setTimeout(() => {
                                         console.log('social', Share);
-                                        Share.shareSingle(
+                                        Share.open(
                                             Object.assign(shareOptions, {
                                                 social: 'whatsapp',
+                                                social: 'facebook',
+                                                social: 'instagram',
+                                                social: 'sms',
+                                                social: 'email',
                                             }),
                                         );
                                     }, 300);
